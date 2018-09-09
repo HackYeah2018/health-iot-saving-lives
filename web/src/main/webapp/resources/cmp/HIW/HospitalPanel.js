@@ -164,7 +164,7 @@ Ext.define('HIW.HospitalPanel', {
 
 				// Add combo boxes for linked devices.
 				var heartMonitor = Ext.create("Ext.form.field.Checkbox", {
-					fieldLabel : "Link to Heart Monitor AS-" + ev.target.roomId,
+					fieldLabel : "Link to Heart Monitor AS-" + ev.target.room.name,
 					padding : '5 5 5 5'
 				});
 				myForm.add(heartMonitor);
