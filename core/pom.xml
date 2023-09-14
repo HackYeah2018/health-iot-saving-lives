@@ -14,7 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<spark.core.version>2.3.0.cloudera3</spark.core.version>
 		<spring.project.version>4.3.16.RELEASE</spring.project.version>
-		<jackson.version>2.7.5</jackson.version>
+		<jackson.version>2.12.7.1</jackson.version>
 		<gaffer.version>1.5.2</gaffer.version>
 	</properties>
 
